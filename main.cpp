@@ -29,7 +29,6 @@ int main() {
 		floatputArray[i] = (rand() % 300) / 7.14f;
 	}
 
-
 	std::cout << "Array length: " << arrayLength << "\n";
 	std::cout << "This is the max of INTputArray: " << maxArray(INTputArray, arrayLength) << "\n";
 	std::cout << "This is the max of floatputArray: " << maxArray(floatputArray, arrayLength) << "\n";
